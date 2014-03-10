@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-webapp-capable" content="yes" />
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-startup-image" href="img/telstra.png">
+        <link rel="apple-touch-icon-precomposed" href="img/logo.jpg">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.0.min.css" />		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="owl/owl.theme.css" />
+		<link rel="stylesheet" type="text/css" href="owl/owl.transitions.css" />
+		<link rel="stylesheet" type="text/css" href="owl/owl.carousel.css" />
+		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.0.min.js"></script>	
+		<script type="text/javascript" src="owl/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="owl/owl.carousel.js"></script>		
+		<title>FlightCentre Discovery App</title>
+		
+		<style>
+		#owl-demo .item img{
+		display: block;
+		width: 100%;
+		height: auto;
+		}
+		.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+			background-color: #FF3C3C!important;
+		}
+		.ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
+			border-color: #FF3C3C;
+		}
+		.svg-	 {
+			fill: #FF3C3C!important;
+		}
+		.ui-btn-active {
+			box-shadow: inset 0px 0px 3px #FF3C3C, 0px 0px 9px #FF3C3C!important;
+			border: none!important;
+		}
+		.ui-focus, .ui-btn:focus { 
+			box-shadow: inset 0px 0px 3px #FF3C3C, 0px 0px 9px #FF3C3C!important;
+		}
+		</style>
+		
+		<script>
+		$(document).ready(function() {
+ 
+			  $("#owl-demo").owlCarousel({
+			 
+				  navigation : false, // Show next and prev buttons
+				  slideSpeed : 300,
+				  paginationSpeed : 400,
+				  singleItem:true
+			  });
+			 
+			});
+		</script>
+				
+    </head>
+    <body>
+	  
+    <div id = "home" data-role="page" data-theme="a">
+    	<div id="header" data-role="header" data-theme="b" data-position="fixed" role="banner" class="ui-header ui-bar-b" style="background:#3a3a3a; border:none;" >
+		<div class="header-wrapper">
+		
+			<div class="ui-block-a">
+			<img class="header-btn-image" src="img/fc_logo.png" style="padding-left:15px; width:50%; margin-top:8px; height:auto; margin-bottom:-10px;">
+			</div>
+			
+			<div class="ui-block-b" style="width:35%; margin:-43px 0px 0px 400px;" >
+				<input type="search" name="text-basic" id="searchto" value="" placeholder="Search Places, Travel Tips, and Destinations" data-theme="a">
+			</div>
+
+			<a href="fsearch.html" data-ajax="false" style="float: right; margin-top:-60px;" class="header_button_2 ui-link ui-btn ui-btn-c ui-btn-inline ui-shadow" data-inline="true" data-role="button" data-corners="false" data-theme="c" role="button">
+				<img style="width: 100%; height: 100%;" src="img/fly.png" alt="Share">
+				<span class="btn-background share-btn-background"></span>
+			</a>
+				
+		<div style="clear: both"></div>
+		</div>
+		</div>
+		
+				<div id="owl-demo" class="owl-carousel owl-theme" style="background:#c52a2e;">
+				  <div class="item"><img src="img/1.png"/></div>
+				  <div class="item"><img src="img/1.png"/></div>
+				  <div class="item"><img src="img/1.png"/></div>
+				</div>
+		
+		<div class="section grey" style="background: url(img/main-bg.jpg);">
+			<div class="container">
+				<div class="container ui-grid-b">
+					<div class="ui-block-a" style="padding:10px;">
+						<div class="box-default">
+						<div class="text-center"><h3><img src="img/plane.png"></h3><h2 class="no-margin title">Flight Type</h2>
+						<p class="text">FlightCentre App lets you choose the flight type you want for travelling. Flight Type includes: International and Domestic Flights.</p>
+						</div>
+						</div>
+					</div>
+					<div class="ui-block-b" style="padding:10px">
+						<div class="box-default">
+						<div class="text-center"><h3><img src="img/bag.png"></h3><h2 class="no-margin title">Choose Flight Class</h2>
+						<p class="text">Choosing a FlightClass has been made easy just for you! Select among the different Flight Classes: First Class, Premium Economic, Business Class</p>
+						</div>
+						</div>
+					</div>
+					<div class="ui-block-c" style="padding:10px">
+						<div class="box-default">
+						<div class="text-center"><h3><img src="img/bed.png"></h3><h2 class="no-margin title">Choose a Place to Stay</h2>
+						<p class="text">Flight Centre App is also your travel agent. It offers you a wide range of places to stay in depending upon your destinations. So, fly with us now!</p>
+						</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	
+    
+	<div data-role="footer" data-position="fixed" data-theme="b" role="contentinfo" class="ui-footer ui-bar-b ui-footer-fixed slideup" style="background:#3a3a3a; border:none;">
+		<div data-role="navbar" class="ui-navbar" role="navigation">
+			<ul class="ui-grid-c">
+				<li class="ui-block-a"><a href="#" data-prefetch="true" data-transition="fade" class="ui-btn-active" style="background:#3a3a3a; height:50px; border-color:#2E2E2E;"><img src="img/home.png" style="width:60px; height:auto;"/></a></li>
+
+				<li class="ui-block-b"><a href="#" data-prefetch="true" data-transition="fade" style="background:#3a3a3a; height:50px; border-color:#2E2E2E;"><img src="img/about.png" style="width:60px;"/></a></li>
+
+				<li class="ui-block-c"><a href="#" data-prefetch="true" data-transition="fade" style="background:#3a3a3a; height:50px; border-color:#2E2E2E;"><img src="img/contact.png" style="width:60px;"/></a></li>
+
+				<li class="ui-block-d"><a href="#" data-prefetch="true" data-transition="fade" style="background:#3a3a3a; height:50px; border-color:#2E2E2E;"><img src="img/rss.png" style="width:60px;"/></a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div>
+</div>
+
+    
+    </body>
+</html>
